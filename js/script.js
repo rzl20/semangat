@@ -97,7 +97,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                       Swal.fire('B dukung lu terus kok').then((result) => {
                         Swal.fire({
                           title: 'Oh iya b mau nanya',
-                          text: 'Ada sesuatu yang lagi lu mau?',
+                          text: 'Lu lagi pengen apa?',
                           showDenyButton: true,
                           confirmButtonText: `Ada`,
                           denyButtonText: `Sonde ada kok`,
