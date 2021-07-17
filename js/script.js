@@ -60,7 +60,7 @@ function selesai() {
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
     title: 'Halooo Julehaaaaa!',
-    html: `${time()} Megaaa, Lu su ${makan()}?`,
+    html: `${time()} Ooo, Lu su ${makan()}?`,
     timer: 2500,
     timerProgressBar: true,
     showConfirmButton: false,
@@ -83,7 +83,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
               showConfirmButton: false,
             }).then((result) => {
               if (result.dismiss === Swal.DismissReason.timer) {
-                Swal.fire('Semangat terus :)').then((result) => {
+                Swal.fire('Semangat terus:)').then((result) => {
                   Swal.fire(
                     'Jangan keseringan begadang!',
                     '',
