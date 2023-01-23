@@ -60,7 +60,7 @@ function selesai() {
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
     title: 'Halooo Asriiiiii!',
-    html: `${time()} Ooo, udah ${makan() belum}?`,
+    html: `${time()} Ooo, udah ${makan()} belum?`,
     timer: 2500,
     timerProgressBar: true,
     showConfirmButton: false,
