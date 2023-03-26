@@ -70,7 +70,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
         Swal.fire({
           title: ' ',
           html: `Kirain gegara longgar kmu ga bakal pake, eh kmrn pas kegiatan pameran ternyata kamu pakai`,
-          timer: 2000,
+          timer: 7000,
           timerProgressBar: true,
           showConfirmButton: false,
         }).then((result) => {
@@ -78,7 +78,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
             Swal.fire({
               title: ' ',
               html: `Senang banget aku pas liat, makasih yaa`,
-              timer: 4000,
+              timer: 7000,
               timerProgressBar: true,
               showConfirmButton: false,
             }).then((result) => {
