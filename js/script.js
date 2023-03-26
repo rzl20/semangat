@@ -99,8 +99,8 @@ document.querySelector(".tombol").addEventListener('click', function () {
                           title: ' ',
                           text: 'kamu ga salah sih untuk ini, yaa mungkin ini gegara sebelumnya selalu apa apa sama aku. makanya aku cemburu untuk ini',
                           showDenyButton: true,
-                          /*confirmButtonText: `Ada by`,*/
-                          denyButtonText: `Ga ada ko`,
+                          confirmButtonText: `Jangan klik ini`,
+                          denyButtonText: `Lanjut`,
                         }).then((result) => {
                           /* Read more about isConfirmed, isDenied below */
                           if (result.isConfirmed) {
@@ -122,8 +122,8 @@ document.querySelector(".tombol").addEventListener('click', function () {
                               })
                             })
                           } else if (result.isDenied) {
-                            Swal.fire('Oh okedeh kalo ga ada').then((result) => {
-                              Swal.fire("See ya! Aku kangen ^^").then((result) => {
+                            Swal.fire('jadi yang aku mau tanya ke kamu, apakah caraku kemarin itu salah? cara aku putusin komunikasi kita berdua biar kamu ga terus terusan ngerasa bersalah sama hubungan kemarin').then((result) => {
+                              Swal.fire("oke itu aja, lanjut respon di wa yaa. see you").then((result) => {
                                 selesai()
                               });
                             })
