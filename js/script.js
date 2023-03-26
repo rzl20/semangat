@@ -77,20 +77,20 @@ document.querySelector(".tombol").addEventListener('click', function () {
           if (result.dismiss === Swal.DismissReason.timer) {
             Swal.fire({
               title: ' ',
-              html: `Senang banget aku pas liat, makasih `,
+              html: `Senang banget aku pas liat, makasih yaa`,
               timer: 7000,
               timerProgressBar: true,
               showConfirmButton: false,
             }).then((result) => {
               if (result.dismiss === Swal.DismissReason.timer) {
-                Swal.fire('Semangat terus ya kamu :)').then((result) => {
+                Swal.fire('udah sebulan sejak aku menjauh dari kamu, ntah knp sampai sekarang aku blm bisa membiasakan diri dengan keadaan kita yang baru (Alhamdulillah kalo kamu udah)').then((result) => {
                   Swal.fire(
-                    'Jangan keseringan begadang!',
+                    'aku ngerasa saat kita bertemu kek canggung banget, padahal sblmnya kita enjoyable dengan suasana',
                     '',
                     'error'
                   ).then((result) => {
                     Swal.fire(
-                      'Jangan telat makan!',
+                      'trus kamu yang tiap butuh apa apa selalu larinya ke aku, skrng udah gak lagi. bahkan aku yang tipe orangnya susah cemburu, jujur banget kali ini aku ngerasa cemburu',
                       '',
                       'error'
                     ).then((result) => {
