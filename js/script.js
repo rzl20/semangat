@@ -69,16 +69,16 @@ document.querySelector(".tombol").addEventListener('click', function () {
       Swal.fire('Pertama, makasih yaa karena kamu udah pakai sepatu yg aku kasih wkwk').then((result) => {
         Swal.fire({
           title: ' ',
-          html: `Aku tau ko kamu lagi sibuk banget`,
-          timer: 2000,
+          html: `Kirain gegara longgar kmu ga bakal pake, eh kmrn pas kegiatan pameran ternyata kamu pakai`,
+          timer: 7000,
           timerProgressBar: true,
           showConfirmButton: false,
         }).then((result) => {
           if (result.dismiss === Swal.DismissReason.timer) {
             Swal.fire({
               title: ' ',
-              html: `Lagi pusing banget, cape banget`,
-              timer: 2000,
+              html: `Senang banget aku pas liat, makasih `,
+              timer: 7000,
               timerProgressBar: true,
               showConfirmButton: false,
             }).then((result) => {
