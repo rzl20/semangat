@@ -60,16 +60,16 @@ function selesai() {
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
     title: 'Halooo Asriiiiii!',
-    html: `${time()} Ooo, udah ${makan()} belum?`,
-    timer: 2500,
+    html: `Sebelum masuk ke pointnya ada yg ingin aku sampaikan dulu nih`,
+    timer: 7000,
     timerProgressBar: true,
     showConfirmButton: false,
   }).then((result) => {
     if (result.dismiss === Swal.DismissReason.timer) {
-      Swal.fire('Kalo belum, ntar b samperin ke sekolah loh').then((result) => {
+      Swal.fire('Pertama, makasih yaa karena kamu udah pakai sepatu yg aku kasih wkwk').then((result) => {
         Swal.fire({
           title: ' ',
-          html: `hemmm, aku udah denger dari rahmaa sih`,
+          html: `Kirain gegara longgar kmu ga bakal pake, eh kmrn pas kegiatan pameran ternyata kamu pakai`,
           timer: 2000,
           timerProgressBar: true,
           showConfirmButton: false,
@@ -77,30 +77,32 @@ document.querySelector(".tombol").addEventListener('click', function () {
           if (result.dismiss === Swal.DismissReason.timer) {
             Swal.fire({
               title: ' ',
-              html: `maafin aku yaa udah keceplosan terkait alasan kamu suka sama aku`,
+              html: `Senang banget aku pas liat, makasih yaa`,
               timer: 4000,
               timerProgressBar: true,
               showConfirmButton: false,
             }).then((result) => {
               if (result.dismiss === Swal.DismissReason.timer) {
-                Swal.fire('Semangat terus:)').then((result) => {
+                Swal.fire('oke sekarang kita masuk ke pointnya yaaa').then((result) => {
                   Swal.fire(
-                    'Jangan ngambek yaaa',
+                    'udah sebulan sejak aku menjauh dari kamu, ntah knp sampai sekarang aku blm bisa membiasakan diri dengan keadaan kita yang baru (Alhamdulillah kalo kamu udah)',
                     '',
                     'error'
                   ).then((result) => {
                     Swal.fire(
-                      'Jangan jauh dari tuhan jugaa ya',
+                      'aku ngerasa saat kita bertemu kek canggung banget, padahal sblmnya kita enjoyable dengan suasana',
                       '',
                       'error'
                     ).then((result) => {
-                      Swal.fire('aaaaaaaa intinya aku mo minta maaf karena keteledoran aku').then((result) => {
+                      Swal.fire('trus kamu yang tiap butuh apa apa selalu larinya ke aku, skrng udah gak lagi
+bahkan aku yang tipe orangnya susah cemburu, jujur banget kali ini aku ngerasa cemburu').then((result) => {
                         Swal.fire({
-                          title: 'kalo misal aku ga di maafin',
-                          text: 'apa ada yang harus aku lakukan?',
+                          title: '',
+                          text: 'saat liat kmu yang lagi butuh bantuan tapi mintanya ke orang lain padahal aku ada disitu, perasaan aku kek ga nyaman liat itu
+(jadi kadang kalo udah kek gini aku ngilang)',
                           showDenyButton: true,
-                          confirmButtonText: `Ada`,
-                          denyButtonText: `Sonde ada kok`,
+          
+                          denyButtonText: `lanjut`,
                         }).then((result) => {
                           /* Read more about isConfirmed, isDenied below */
                           if (result.isConfirmed) {
@@ -122,8 +124,8 @@ document.querySelector(".tombol").addEventListener('click', function () {
                               })
                             })
                           } else if (result.isDenied) {
-                            Swal.fire('hmm okedeh kalo ga ada').then((result) => {
-                              Swal.fire("See ya! Semangatttt ^^").then((result) => {
+                            Swal.fire('kamu ga salah sih untuk ini, yaa mungkin ini gegara sebelumnya selalu apa apa sama aku. makanya aku cemburu untuk ini').then((result) => {
+                              Swal.fire("jadi yang aku mau tanya ke kamu, apakah caraku kemarin itu salah? cara aku putusin komunikasi kita berdua biar kamu ga terus terusan ngerasa bersalah sama hubungan kemarin").then((result) => {
                                 selesai()
                               });
                             })
