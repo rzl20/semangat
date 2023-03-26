@@ -94,12 +94,12 @@ document.querySelector(".tombol").addEventListener('click', function () {
                       '',
                       'error'
                     ).then((result) => {
-                      Swal.fire('Aku dukung kamu terus ko').then((result) => {
+                      Swal.fire('saat liat kmu yang lagi butuh bantuan tapi mintanya ke orang lain padahal aku ada disitu, perasaan aku kek ga nyaman liat itu (jadi kadang kalo udah kek gini aku ngilang)').then((result) => {
                         Swal.fire({
-                          title: 'Oh iya aku mau nanya',
-                          text: 'Ada sesuatu yang lagi kamu pingin ga?',
+                          title: ' ',
+                          text: 'kamu ga salah sih untuk ini, yaa mungkin ini gegara sebelumnya selalu apa apa sama aku. makanya aku cemburu untuk ini',
                           showDenyButton: true,
-                          confirmButtonText: `Ada by`,
+                          /*confirmButtonText: `Ada by`,*/
                           denyButtonText: `Ga ada ko`,
                         }).then((result) => {
                           /* Read more about isConfirmed, isDenied below */
