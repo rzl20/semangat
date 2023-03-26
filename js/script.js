@@ -6,12 +6,12 @@ let doi;
 if (url.searchParams.get('in') != null) {
   doi = url.searchParams.get('in');
 } else {
-  doi = "Irna";
+  doi = "Asrii";
 }
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
-footer.href = "https://www.instagram.com/adamukti/";
+footer.href = "https://www.instagram.com/zal.zip/";
 
 function time() {
   var d = new Date();
@@ -59,14 +59,14 @@ function selesai() {
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
-    title: 'Hai byy!',
-    html: `Selamat ${time()}, Kamu udah ${makan()}?`,
-    timer: 2500,
+    title: 'Halooo Asriiiiii!',
+    html: `Sebelum masuk ke pointnya ada yg ingin aku sampaikan dulu nih`,
+    timer: 7000,
     timerProgressBar: true,
     showConfirmButton: false,
   }).then((result) => {
     if (result.dismiss === Swal.DismissReason.timer) {
-      Swal.fire('Kalau belum jangan lupa makan yaa').then((result) => {
+      Swal.fire('Pertama, makasih yaa karena kamu udah pakai sepatu yg aku kasih wkwk').then((result) => {
         Swal.fire({
           title: ' ',
           html: `Aku tau ko kamu lagi sibuk banget`,
