@@ -87,12 +87,12 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   Swal.fire(
                     'aku ngerasa saat kita bertemu kek canggung banget, padahal sblmnya kita enjoyable dengan suasana',
                     '',
-                    'error'
+                    ''
                   ).then((result) => {
                     Swal.fire(
                       'trus kamu yang tiap butuh apa apa selalu larinya ke aku, skrng udah gak lagi. bahkan aku yang tipe orangnya susah cemburu, jujur banget kali ini aku ngerasa cemburu',
                       '',
-                      'error'
+                      ''
                     ).then((result) => {
                       Swal.fire('saat liat kmu yang lagi butuh bantuan tapi mintanya ke orang lain padahal aku ada disitu, perasaan aku kek ga nyaman liat itu (jadi kadang kalo udah kek gini aku ngilang)').then((result) => {
                         Swal.fire({
